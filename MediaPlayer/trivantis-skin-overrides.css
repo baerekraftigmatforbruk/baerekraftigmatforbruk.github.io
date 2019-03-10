@@ -1,0 +1,3 @@
+div[id^="vid"] .mejs-controls.mejs-roll {
+	bottom: 0px;
+}
