@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Trivantis Debug</title>
+
+<script type="text/javascript" src="trivantis-utils.js"></script>
+<script type="text/javascript" src="trivantis.js"></script>
+<script type="text/javascript" src="tivantis-cookie.js"></script>
+<script type="text/javascript" src="trivantis-strings.js"></script>
+<script type="text/javascript">
+
+onload = init
+onunload = finish
+
+function init() {
+	//objDebug = new ObjLayer( 'debugDIV' )
+	//objDebug.show();
+	if( opener && !opener.closed && opener.location ) {
+		var topWnd = findTrivLogMsg( opener, false );
+		if( topWnd ) {
+			topWnd.trivAddMsgFunc = addMsg;
+			if( topWnd.trivLogMsg ) topWnd.trivLogMsg();
+			topWnd.opening=0;
+		}
+	}
+}
+
+function finish() {
+	if( opener && !opener.closed && opener.location ) {
+		var topWnd = findTrivLogMsg( opener );
+		topWnd.trivAddMsgFunc = null;
+	}
+	if (window.trivVarWnd)
+	{
+		window.trivVarWnd.close();
+		window.trivVarWnd = 0;
+	}
+}
+
+function doPrint() {
+	var prntWnd=window.open('',trivstrPrint,'height=400,width=500,resizable=yes,scrollbars,toolbar,menubar');
+	if (!prntWnd)
+	{
+		alert(trivstrPopBlock);
+		return;
+	}
+	var doc = prntWnd.document;
+	doc.write(
+				'<html><head><title></title>'+
+				'<style>body {line-height:1;} p{line-height:1;margin:0px}</style>'+
+				'</head><body onload="window.print()">'+
+				currMsg+
+				'</body></html>');
+	doc.close();
+}
+
+function doClear() {
+		currMsg = ''
+		document.getElementById('debugDiv').innerHTML = '';
+		return false;
+}
+
+var currMsg = ''
+
+function addMsg( msg ) {
+		if( currMsg || msg ) {
+			if( currMsg.length ) currMsg += '<br />';
+			currMsg += msg;
+			// appending <br> doesn't work in FF
+			//document.getElementById('debugDiv').appendChild(document.createElement('br'));
+			//document.getElementById('debugDiv').appendChild(document.createTextNode(msg));
+			document.getElementById('debugDiv').innerHTML = currMsg;
+			if(typeof(window.onresize) == 'function') window.onresize();
+			if (!window.scrollDownTimer)
+			window.scrollDownTimer = setTimeout(
+			function()
+			{
+				try {
+					document.getElementById('debugDiv').scrollTop = document.getElementById('debugDiv').scrollHeight;
+				} catch (e) {} // might happen after closing the dialog.
+				window.scrollDownTimer = n;
+			},100);
+
+		}
+}
+
+function doVariables() {
+	trivVarWnd = window.open('trivantisvar.html','TrivantisVar','width=500,height=400,menubar=0,scrollbars=1,toolbar=0,status=0;location=0');
+	if (opener) opener.trivVarWnd = trivVarWnd;
+}
+
+window.onresize = function()
+{
+	if (window.resizer)
+		clearTimeout(window.resizer);
+
+	window.resizer = setTimeout ( function() {
+		var winH = 30;
+		if (document.body && document.body.offsetWidth) {
+		winH = document.body.offsetHeight;
+		}
+		if (document.compatMode=='CSS1Compat' &&
+				document.documentElement &&
+				document.documentElement.offsetWidth ) {
+		winH = document.documentElement.offsetHeight;
+		}
+		if (window.innerWidth && window.innerHeight) {
+		winH = window.innerHeight;
+		}
+		var height = winH > 30 ? (winH - 30) : 0;
+		document.getElementById('debugDiv').style.height = height+'px';
+		document.getElementById('debugDiv').style.width = document.body.clientWidth+'px';
+	},250);
+}
+
+</script>
+</head>
+<body >
+<div id="headerDiv" style="background-color:lightgrey;position:absolute;top:0px;left:0px;width:100%;padding:4px;">
+<center>
+<form name="debugform" id="debugform" onSubmit="return doSubmit();">
+			<script>
+			document.write('<input type="button" name="Clear" value="' + trivstrClear + '" + onclick=doClear()>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.write('<input type="button" name="Print" value="' + trivstrPrint + '" onclick=doPrint()>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.write('<input type="button" name="Variables" value="' + trivstrVariables + '" onclick=doVariables()>');
+		</script>
+</form>
+</center>
+</div>
+<br><br>
+<div id='debugDiv' style="position:absolute;top:30px;background:white;overflow-y:scroll;overflow-x:hidden" >
+
+</div>
+
+</body>
+</html>

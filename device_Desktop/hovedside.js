@@ -19,10 +19,10 @@ function defineFuncs_Desktop() {
 video3218.rcdData.att_Desktop = 
 {
 	innerHtml:	"<div id=\"vid\" style=\"left: 0px; top: 0px; width: 437px; height: 291px; background-color: rgb(0, 0, 0); position: absolute;\"></div>",
-	cssText:	"position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; z-index: 8; visibility: hidden; opacity: 0.01;",
+	cssText:	"position: absolute; left: 0px; top: 0px; width: 1px; height: 1px; z-index: 8; cursor: pointer; visibility: hidden; opacity: 0.01;",
 	cssClasses:	"",
 	htmlId:		"tobj3218",
-	bInsAnc:	0,
+	bInsAnc:	1,
 	stdHtml:	'<video id="swftobj3218" name="swftobj3218" width="1" height="1" controls="controls" preload="none" playsinline><source type="video/mp4" src="media/Animasjon%20oppstart3.mp4" /></video>',
 	iosHtml:	'undefined',
 	resource:	'media/Animasjon oppstart3.mp4',
@@ -30,15 +30,19 @@ video3218.rcdData.att_Desktop =
 		"name":	"Animasjon oppstart3",
 		"arChld":
 	[
-		{type:6,on:6,delay:0,name:'OnDoneHide',actItem:function(){ video3218.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkTogglePlay',actItem:function(){ trivLogMsg( 'Action [OnMClkTogglePlay on Animasjon oppstart3] fired!', 4 )
+    video3218.togglePlay();
+    if(typeof pF == 'function') pF(); }},
+		{type:6,on:6,delay:0,name:'OnDoneHide',actItem:function(){ trivLogMsg( 'Action [OnDoneHide on Animasjon oppstart3] fired!', 4 )
+    video3218.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
-	objData:	{"a":[64,320,0,[285,199,437,291]],"bLiveWin":1,"rcdOvr":{"res":0},"desktopRect":{"x":285,"y":199,"width":437,"height":291},"hasEvents":0,"supportsEvents":true,"initHidden":true,"useNoSkin":true,"cssSkin":"trivantis-player.css","includeShim":"","flashStreamer":"","bRollOver":true,"skinHeight":0}
+	objData:	{"a":[68,320,0,[285,199,437,291]],"bLiveWin":1,"rcdOvr":{"res":0},"desktopRect":{"x":285,"y":199,"width":437,"height":291},"hasEvents":0,"supportsEvents":true,"initHidden":true,"useNoSkin":true,"cssSkin":"trivantis-player.css","includeShim":"","flashStreamer":"","bRollOver":true,"skinHeight":0}
 };
 shape2564.rcdData.att_Desktop = 
 {
-	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_26225\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_26225&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-82.68\" y=\"7.56\" fill=\"#000000\">REFERANSER</tspan>\n		</text>\n	</g>\n</svg>",
+	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_1507\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_1507&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-82.68\" y=\"7.56\" fill=\"#000000\">REFERANSER</tspan>\n		</text>\n	</g>\n</svg>",
 	cssText:	"visibility: inherit; position: absolute; left: 744.5px; top: 532.5px; width: 207px; height: 97px; z-index: 0; cursor: pointer; overflow: visible; pointer-events: none;",
 	cssClasses:	"",
 	htmlId:		"tobj2564",
@@ -47,7 +51,8 @@ shape2564.rcdData.att_Desktop =
 		"name":	"BtnOppgaver",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivExitPage('referanser_referanser.html',true,false);
+		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivLogMsg( 'Action [OnMClkGoTo on BtnOppgaver] fired!', 4 )
+    trivExitPage('referanser_referanser.html',true,false);
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -67,7 +72,7 @@ shape64.rcdData.att_Desktop =
 };
 shape16.rcdData.att_Desktop = 
 {
-	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_26227\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_26227&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-60.01\" y=\"-8.17\" fill=\"#000000\">TEST DEG</tspan>\n			<tspan x=\"-31.34\" y=\"23.29\" fill=\"#000000\">SELV</tspan>\n		</text>\n	</g>\n</svg>",
+	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_1509\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_1509&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-60.01\" y=\"-8.17\" fill=\"#000000\">TEST DEG</tspan>\n			<tspan x=\"-31.34\" y=\"23.29\" fill=\"#000000\">SELV</tspan>\n		</text>\n	</g>\n</svg>",
 	cssText:	"visibility: inherit; position: absolute; left: 515.5px; top: 532.5px; width: 207px; height: 97px; z-index: 2; cursor: pointer; overflow: visible; pointer-events: none;",
 	cssClasses:	"",
 	htmlId:		"tobj16",
@@ -76,7 +81,8 @@ shape16.rcdData.att_Desktop =
 		"name":	"BtnOppgaver",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivExitPage('oppgaver_page_1.html',true,false);
+		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivLogMsg( 'Action [OnMClkGoTo on BtnOppgaver] fired!', 4 )
+    trivExitPage('oppgaver_test_1.html',true,false);
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -93,9 +99,11 @@ image332.rcdData.att_Desktop =
 		"name":	"Bie",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ video3218.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Bie] fired!', 4 )
+    video3218.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkPlay',actItem:function(){ video3218.play();
+		{type:6,on:2,delay:0,name:'OnMClkPlay',actItem:function(){ trivLogMsg( 'Action [OnMClkPlay on Bie] fired!', 4 )
+    video3218.play();
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -103,7 +111,7 @@ image332.rcdData.att_Desktop =
 };
 shape12.rcdData.att_Desktop = 
 {
-	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_26229\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_26229&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-36.67\" y=\"7.56\" fill=\"#000000\">TEORI</tspan>\n		</text>\n	</g>\n</svg>",
+	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_1511\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_1511&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-36.67\" y=\"7.56\" fill=\"#000000\">TEORI</tspan>\n		</text>\n	</g>\n</svg>",
 	cssText:	"visibility: inherit; position: absolute; left: 287.5px; top: 532.5px; width: 207px; height: 97px; z-index: 4; cursor: pointer; overflow: visible; pointer-events: none;",
 	cssClasses:	"",
 	htmlId:		"tobj12",
@@ -112,7 +120,8 @@ shape12.rcdData.att_Desktop =
 		"name":	"BtnTeori",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivExitPage('teori_innledning.html',true,false);
+		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivLogMsg( 'Action [OnMClkGoTo on BtnTeori] fired!', 4 )
+    trivExitPage('teori_innledning.html',true,false);
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -132,7 +141,7 @@ text11.rcdData.att_Desktop =
 };
 shape9.rcdData.att_Desktop = 
 {
-	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_26231\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_26231&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-83.33\" y=\"7.56\" fill=\"#000000\">LÆRINGSMÅL</tspan>\n		</text>\n	</g>\n</svg>",
+	innerHtml:	"<svg viewBox=\"0 0 207 97\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\"><g transform=\"translate(103.5 48.5)\" style=\"\">\n	<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_66_1513\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"204\" height=\"94\" xlink:href=\"images/Btn.forside.jpg\" preserveAspectRatio=\"none\" href=\"images/Btn.forside.jpg\"></image>\n</pattern>\n<path d=\"M 23.5 0 L 180.5 0 A 23.5 23.5 0 0 1 204 23.5 L 204 70.5 A 23.5 23.5 0 0 1 180.5 94 L 23.5 94 A 23.5 23.5 0 0 1 0 70.5 L 0 23.5 A 23.5 23.5 0 0 1 23.5 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 3px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_66_1513&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-102, -47) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(103.5 48.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"23.9999994\" font-weight=\"bold\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(0,0,0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"-83.33\" y=\"7.56\" fill=\"#000000\">LÆRINGSMÅL</tspan>\n		</text>\n	</g>\n</svg>",
 	cssText:	"visibility: inherit; position: absolute; left: 58.499999999999986px; top: 532.5px; width: 207px; height: 97px; z-index: 6; cursor: pointer; overflow: visible; pointer-events: none;",
 	cssClasses:	"",
 	htmlId:		"tobj9",
@@ -141,7 +150,8 @@ shape9.rcdData.att_Desktop =
 		"name":	"BtnMal",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivExitPage('mal_page_1.html',true,false);
+		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivLogMsg( 'Action [OnMClkGoTo on BtnMal] fired!', 4 )
+    trivExitPage('mal_page_1.html',true,false);
     if(typeof pF == 'function') pF(); }}
 	]
 	},

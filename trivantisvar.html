@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript" src="trivantis-utils.js"></script>
+<script type="text/javascript" src="trivantis.js"></script>
+<script type="text/javascript" src="trivantis-cookie.js"></script>
+<script type="text/javascript" src="trivantis-strings.js"></script>
+<script type="text/javascript">
+var titleMgr;
+var debugOpener;
+</script>
+<script type="text/javascript" src="trivantisvar.js"></script>
+</head>
+
+<body onload='load()'>
+<div id="btn" align="center">
+<script>
+	document.write('<input type="button" name="Refresh" id="Refresh" value="'+trivstrRefresh+'" onClick="javascript:updateVars();" />')
+	document.write('&nbsp;&nbsp;&nbsp;&nbsp;')
+	document.write('<input type="button" name="Close" id="Close" value="'+trivstrClose+'" onClick="javascript:window.close();" />')
+</script>
+</div>
+<div id="varView" align="center"></div>
+</body>
+</html>

@@ -18,7 +18,7 @@ function defineFuncs_Desktop() {
 }
 textbutton50.rcdData.att_Desktop = 
 {
-	innerHtml:	"<svg viewBox=\"0 0 60 45\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\" aria-hidden=\"true\"><g transform=\"translate(30 22.5)\" style=\"\">\n	<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_383_40_26241\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26241&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(30 22.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n		</text>\n	</g>\n</svg>",
+	innerHtml:	"<svg viewBox=\"0 0 60 45\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\" aria-hidden=\"true\"><g transform=\"translate(30 22.5)\" style=\"\">\n	<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_383_40_1523\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1523&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(30 22.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n		</text>\n	</g>\n</svg>",
 	cssText:	"visibility: inherit; position: absolute; left: 714.9999999999999px; top: 600.0000000000001px; width: 60px; height: 45px; z-index: 5; cursor: pointer; overflow: visible; pointer-events: none;",
 	cssClasses:	"",
 	htmlId:		"tobj50",
@@ -27,15 +27,16 @@ textbutton50.rcdData.att_Desktop =
 		"name":	"BtnPilV",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivExitPage('teori_matsvinn.html',false,false);
+		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivLogMsg( 'Action [OnMClkGoTo on BtnPilV] fired!', 4 )
+    trivExitPage('teori_matsvinn.html',false,false);
     if(typeof pF == 'function') pF(); }}
 	]
 	},
-	objData:	{"a":[4,33120,0,[714.9999999999999,600.0000000000001,60,45]],"rcdOvr":{"res":0},"borderEffect":{"outline":0,"outlineColor":"#000000","borderWeight":0,"lineStyle":0,"borderColor":"#000000"},"rotateEffect":{"angle":0,"anchorX":50,"anchorY":50},"desktopRect":{"x":715,"y":600,"width":60,"height":45},"imgDataNormal":"images/desktop_shape50.png","imgDataOver":"images/desktop_shape50.png","imgDataDown":"images/desktop_shape50.png","imgDataDisabled":"images/desktop_shape50_disabled.png","svgDataNormal":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26241\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26241&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataOver":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26243\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26243&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDown":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26245\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26245&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDisabled":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26247\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26247&quot;); fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.6;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","btnState":"enabled","altValue":"BtnPilV","titleValue":"BtnPilV","fallbackImg":"<img alt=\"BtnPilV\" title=\"BtnPilV\" style=\"position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;\">"}
+	objData:	{"a":[4,33120,0,[714.9999999999999,600.0000000000001,60,45]],"rcdOvr":{"res":0},"borderEffect":{"outline":0,"outlineColor":"#000000","borderWeight":0,"lineStyle":0,"borderColor":"#000000"},"rotateEffect":{"angle":0,"anchorX":50,"anchorY":50},"desktopRect":{"x":715,"y":600,"width":60,"height":45},"imgDataNormal":"images/desktop_shape50.png","imgDataOver":"images/desktop_shape50.png","imgDataDown":"images/desktop_shape50.png","imgDataDisabled":"images/desktop_shape50_disabled.png","svgDataNormal":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1523\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1523&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataOver":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1525\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1525&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDown":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1527\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1527&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDisabled":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1529\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilV.png\" preserveAspectRatio=\"none\" href=\"images/PilV.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1529&quot;); fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.6;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","btnState":"enabled","altValue":"BtnPilV","titleValue":"BtnPilV","fallbackImg":"<img alt=\"BtnPilV\" title=\"BtnPilV\" style=\"position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;\">"}
 };
 textbutton48.rcdData.att_Desktop = 
 {
-	innerHtml:	"<svg viewBox=\"0 0 60 45\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\" aria-hidden=\"true\"><g transform=\"translate(30 22.5)\" style=\"\">\n	<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_383_40_26249\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26249&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(30 22.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n		</text>\n	</g>\n</svg>",
+	innerHtml:	"<svg viewBox=\"0 0 60 45\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\" aria-hidden=\"true\"><g transform=\"translate(30 22.5)\" style=\"\">\n	<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_383_40_1531\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1531&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(30 22.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n		</text>\n	</g>\n</svg>",
 	cssText:	"visibility: inherit; position: absolute; left: 899.9999999999999px; top: 600.0000000000001px; width: 60px; height: 45px; z-index: 6; cursor: pointer; overflow: visible; pointer-events: none;",
 	cssClasses:	"",
 	htmlId:		"tobj48",
@@ -44,15 +45,16 @@ textbutton48.rcdData.att_Desktop =
 		"name":	"BtnPilH",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivExitPage('teori_okologisk.html',true,false);
+		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivLogMsg( 'Action [OnMClkGoTo on BtnPilH] fired!', 4 )
+    trivExitPage('teori_okologisk.html',true,false);
     if(typeof pF == 'function') pF(); }}
 	]
 	},
-	objData:	{"a":[4,33120,0,[899.9999999999999,600.0000000000001,60,45]],"rcdOvr":{"res":0},"borderEffect":{"outline":0,"outlineColor":"#000000","borderWeight":0,"lineStyle":0,"borderColor":"#000000"},"rotateEffect":{"angle":0,"anchorX":50,"anchorY":50},"desktopRect":{"x":900,"y":600,"width":60,"height":45},"imgDataNormal":"images/desktop_shape48.png","imgDataOver":"images/desktop_shape48.png","imgDataDown":"images/desktop_shape48.png","imgDataDisabled":"images/desktop_shape48_disabled.png","svgDataNormal":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26249\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26249&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataOver":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26251\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26251&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDown":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26253\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26253&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDisabled":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_26255\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_26255&quot;); fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.6;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","btnState":"enabled","altValue":"BtnPilH","titleValue":"BtnPilH","fallbackImg":"<img alt=\"BtnPilH\" title=\"BtnPilH\" style=\"position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;\">"}
+	objData:	{"a":[4,33120,0,[899.9999999999999,600.0000000000001,60,45]],"rcdOvr":{"res":0},"borderEffect":{"outline":0,"outlineColor":"#000000","borderWeight":0,"lineStyle":0,"borderColor":"#000000"},"rotateEffect":{"angle":0,"anchorX":50,"anchorY":50},"desktopRect":{"x":900,"y":600,"width":60,"height":45},"imgDataNormal":"images/desktop_shape48.png","imgDataOver":"images/desktop_shape48.png","imgDataDown":"images/desktop_shape48.png","imgDataDisabled":"images/desktop_shape48_disabled.png","svgDataNormal":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1531\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1531&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataOver":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1533\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1533&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDown":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1535\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1535&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDisabled":"<g transform=\"translate(30 22.5)\" style=\"\">\n\t<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0 Z\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_40_1537\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"60\" height=\"45\" xlink:href=\"images/PilH.png\" preserveAspectRatio=\"none\" href=\"images/PilH.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 60 0 L 60 45 L 0 45 L 0 0\" style=\"stroke: rgb(9, 99, 177); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_40_1537&quot;); fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-30, -22.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(30 22.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.6;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","btnState":"enabled","altValue":"BtnPilH","titleValue":"BtnPilH","fallbackImg":"<img alt=\"BtnPilH\" title=\"BtnPilH\" style=\"position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;\">"}
 };
 textbutton36.rcdData.att_Desktop = 
 {
-	innerHtml:	"<svg viewBox=\"0 0 73 61\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\" aria-hidden=\"true\"><g transform=\"translate(36.5 30.5)\" style=\"\">\n	<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_383_839_26233\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_26233&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(36.5 30.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n		</text>\n	</g>\n</svg>",
+	innerHtml:	"<svg viewBox=\"0 0 73 61\" preserveAspectRatio=\"none\" focusable=\"false\" style=\"pointer-events: none; left: 0px; top: 0px; width: 100%; height: 100%; position: absolute;\" aria-hidden=\"true\"><g transform=\"translate(36.5 30.5)\" style=\"\">\n	<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity:0;filter:alpha(opacity=0); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n	<pattern id=\"SVGID_383_839_1515\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_1515&quot;); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100); pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n	<g transform=\"translate(36.5 30.5)\">\n		<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity:1;filter:alpha(opacity=100);\">\n			<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n		</text>\n	</g>\n</svg>",
 	cssText:	"visibility: inherit; position: absolute; left: 909.9999999999999px; top: 27.00000000000015px; width: 73px; height: 61px; z-index: 7; cursor: pointer; overflow: visible; pointer-events: none;",
 	cssClasses:	"",
 	htmlId:		"tobj36",
@@ -61,11 +63,12 @@ textbutton36.rcdData.att_Desktop =
 		"name":	"BtnHjem",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivExitPage('hovedside.html',true,false);
+		{type:6,on:2,delay:0,name:'OnMClkGoTo',actItem:function(){ trivLogMsg( 'Action [OnMClkGoTo on BtnHjem] fired!', 4 )
+    trivExitPage('hovedside.html',true,false);
     if(typeof pF == 'function') pF(); }}
 	]
 	},
-	objData:	{"a":[4,33120,0,[909.9999999999999,27.00000000000015,73,61]],"rcdOvr":{"res":0},"borderEffect":{"outline":0,"outlineColor":"#000000","borderWeight":0,"lineStyle":0,"borderColor":"#000000"},"rotateEffect":{"angle":0,"anchorX":50,"anchorY":50},"desktopRect":{"x":910,"y":27,"width":73,"height":61},"imgDataNormal":"images/desktop_shape36.png","imgDataOver":"images/desktop_shape36.png","imgDataDown":"images/desktop_shape36.png","imgDataDisabled":"images/desktop_shape36_disabled.png","svgDataNormal":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_26233\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_26233&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataOver":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_26235\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_26235&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDown":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_26237\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_26237&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDisabled":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_26239\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_26239&quot;); fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.6;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","btnState":"enabled","altValue":"BtnHjem","titleValue":"BtnHjem","fallbackImg":"<img alt=\"BtnHjem\" title=\"BtnHjem\" style=\"position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;\">"}
+	objData:	{"a":[4,33120,0,[909.9999999999999,27.00000000000015,73,61]],"rcdOvr":{"res":0},"borderEffect":{"outline":0,"outlineColor":"#000000","borderWeight":0,"lineStyle":0,"borderColor":"#000000"},"rotateEffect":{"angle":0,"anchorX":50,"anchorY":50},"desktopRect":{"x":910,"y":27,"width":73,"height":61},"imgDataNormal":"images/desktop_shape36.png","imgDataOver":"images/desktop_shape36.png","imgDataDown":"images/desktop_shape36.png","imgDataDisabled":"images/desktop_shape36_disabled.png","svgDataNormal":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_1515\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_1515&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataOver":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_1517\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_1517&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDown":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_1519\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_1519&quot;); fill-rule: nonzero; opacity: 1; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","svgDataDisabled":"<g transform=\"translate(36.5 30.5)\" style=\"\">\n\t<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0 Z\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: rgb(255, 255, 255); fill-opacity: 0; fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n\t<pattern id=\"SVGID_383_839_1521\" x=\"0\" y=\"0\" width=\"1\" height=\"1\">\n<image x=\"0\" y=\"0\" width=\"73\" height=\"61\" xlink:href=\"images/BtnHjem.png\" preserveAspectRatio=\"none\" href=\"images/BtnHjem.png\"></image>\n</pattern>\n<path d=\"M 0 0 L 73 0 L 73 61 L 0 61 L 0 0\" style=\"stroke: rgb(39, 78, 19); stroke-width: 0px; stroke-dasharray: none; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10; fill: url(&quot;#SVGID_383_839_1521&quot;); fill-rule: nonzero; opacity: 0.6; pointer-events: auto;\" transform=\"translate(0 0) translate(-36.5, -30.5) \" stroke-linecap=\"round\"></path>\n</g>\n\t<g transform=\"translate(36.5 30.5)\">\n\t\t<text font-family=\"Arial,sans-serif\" font-size=\"15.9999996\" font-weight=\"normal\" style=\"stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.6;\">\n\t\t\t<tspan x=\"0\" y=\"5.04\" fill=\"#FFFFFF\"></tspan>\n\t\t</text>\n\t</g>\n","btnState":"enabled","altValue":"BtnHjem","titleValue":"BtnHjem","fallbackImg":"<img alt=\"BtnHjem\" title=\"BtnHjem\" style=\"position: absolute; width: 100%; height: 100%; top: 0px; left: 0px;\">"}
 };
 textbutton384.rcdData.att_Desktop = 
 {
@@ -78,11 +81,14 @@ textbutton384.rcdData.att_Desktop =
 		"name":	"BtnHideMeny",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ menu175.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnHideMeny] fired!', 4 )
+    menu175.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ textbutton384.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnHideMeny] fired!', 4 )
+    textbutton384.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ textbutton182.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on BtnHideMeny] fired!', 4 )
+    textbutton182.show(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -99,11 +105,14 @@ textbutton182.rcdData.att_Desktop =
 		"name":	"BtnShowMeny",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ menu175.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on BtnShowMeny] fired!', 4 )
+    menu175.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ textbutton182.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnShowMeny] fired!', 4 )
+    textbutton182.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ textbutton384.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on BtnShowMeny] fired!', 4 )
+    textbutton384.show(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -111,8 +120,8 @@ textbutton182.rcdData.att_Desktop =
 };
 menu175.rcdData.att_Desktop = 
 {
-	innerHtml:	"<div style=\"position: absolute; left: 0px; top: 0px; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 229, 153); width: 760px; height: 22px;\"><div id=\"item175_0\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 86px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Innledning</p></div><div id=\"item175_1\" onclick=\"trivExitPage(\'teori_dyreriket.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 87px; top: 0px; height: 20px; width: 119px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Mat fra dyreriket</p></div><div id=\"item175_2\" onclick=\"trivExitPage(\'teori_sjomat.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 207px; top: 0px; height: 20px; width: 135px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Bærekraftig sjømat</p></div><div id=\"item175_3\" onclick=\"trivExitPage(\'teori_kortreist.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 343px; top: 0px; height: 20px; width: 99px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Kortreist mat</p></div><div id=\"item175_4\" style=\"position: absolute; cursor: pointer; left: 443px; top: 0px; height: 20px; width: 78px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Matsvinn</p></div><div id=\"item175_5\" onclick=\"trivExitPage(\'teori_okologisk.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 522px; top: 0px; height: 20px; width: 108px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Økologisk mat</p></div><div id=\"item175_6\" style=\"position: absolute; cursor: pointer; left: 631px; top: 0px; height: 20px; width: 127px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Spise bærekraftig</p></div></div>",
-	additionalHtml:	"<div id=\"tmenu175_0\" style=\"z-index: 9999; position: absolute; left: 40px; top: 41px; visibility: hidden; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(131, 153, 27); width: 206px; height: 85px;\"><div id=\"item175_0_0\" onclick=\"trivExitPage(\'teori_innledning.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Innledning</p></div><div id=\"item175_0_1\" onclick=\"trivExitPage(\'teori_begreper.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 21px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Viktige begreper</p></div><div id=\"item175_0_2\" onclick=\"trivExitPage(\'teori_testbegrep.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 42px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Test deg selv om begreper</p></div><div id=\"item175_0_3\" onclick=\"trivExitPage(\'teori_butvikling.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 63px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Hva er bærekraftig utvikling</p></div></div><div id=\"tmenu175_4\" style=\"z-index: 9999; position: absolute; left: 483px; top: 41px; visibility: hidden; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(131, 153, 27); width: 200px; height: 43px;\"><div id=\"item175_4_0\" onclick=\"trivExitPage(\'teori_matsvinn.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 198px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Matsvinn</p></div><div id=\"item175_4_1\" onclick=\"ObjLayerActionGoTo(\'#top\');\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 21px; height: 20px; width: 198px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Hvordan kaste mindre mat</p></div></div><div id=\"tmenu175_6\" style=\"z-index: 9999; position: absolute; left: 671px; top: 41px; visibility: hidden; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(131, 153, 27); width: 207px; height: 43px;\"><div id=\"item175_6_0\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 205px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Merkeordninger</p></div><div id=\"item175_6_1\" onclick=\"trivExitPage(\'teori_hvordanspise.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 21px; height: 20px; width: 205px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Hvordan spise bærekraftig?</p></div></div>",
+	innerHtml:	"<div style=\"position: absolute; left: 0px; top: 0px; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(255, 229, 153); width: 760px; height: 22px;\"><div id=\"item175_0\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 86px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Innledning</p></div><div id=\"item175_1\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_dyreriket.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 87px; top: 0px; height: 20px; width: 119px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Mat fra dyreriket</p></div><div id=\"item175_2\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_sjomat.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 207px; top: 0px; height: 20px; width: 135px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Bærekraftig sjømat</p></div><div id=\"item175_3\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_kortreist.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 343px; top: 0px; height: 20px; width: 99px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Kortreist mat</p></div><div id=\"item175_4\" style=\"position: absolute; cursor: pointer; left: 443px; top: 0px; height: 20px; width: 78px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Matsvinn</p></div><div id=\"item175_5\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_okologisk.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 522px; top: 0px; height: 20px; width: 108px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Økologisk mat</p></div><div id=\"item175_6\" style=\"position: absolute; cursor: pointer; left: 631px; top: 0px; height: 20px; width: 127px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 10px; text-align: left;\">Spise bærekraftig</p></div></div>",
+	additionalHtml:	"<div id=\"tmenu175_0\" style=\"z-index: 9999; position: absolute; left: 40px; top: 41px; visibility: hidden; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(131, 153, 27); width: 206px; height: 85px;\"><div id=\"item175_0_0\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_innledning.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Innledning</p></div><div id=\"item175_0_1\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_begreper.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 21px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Viktige begreper</p></div><div id=\"item175_0_2\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_testbegrep.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 42px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Test deg selv om begreper</p></div><div id=\"item175_0_3\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_butvikling.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 63px; height: 20px; width: 204px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Hva er bærekraftig utvikling</p></div></div><div id=\"tmenu175_4\" style=\"z-index: 9999; position: absolute; left: 483px; top: 41px; visibility: hidden; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(131, 153, 27); width: 200px; height: 43px;\"><div id=\"item175_4_0\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_matsvinn.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 198px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Matsvinn</p></div><div id=\"item175_4_1\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    ObjLayerActionGoTo(\'#top\');\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 21px; height: 20px; width: 198px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Hvordan kaste mindre mat</p></div></div><div id=\"tmenu175_6\" style=\"z-index: 9999; position: absolute; left: 671px; top: 41px; visibility: hidden; font-size: 10pt; font-family: Arial, sans-serif; color: rgb(51, 51, 51); background-color: rgb(131, 153, 27); width: 207px; height: 43px;\"><div id=\"item175_6_0\" style=\"position: absolute; cursor: pointer; left: 0px; top: 0px; height: 20px; width: 205px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Merkeordninger</p></div><div id=\"item175_6_1\" onclick=\"trivLogMsg( \'Action [ on Menu 1] fired!\', 4 )\n    trivExitPage(\'teori_hvordanspise.html\',true,false);\n    if(typeof pF == \'function\') pF();\" style=\"position: absolute; cursor: pointer; left: 0px; top: 21px; height: 20px; width: 205px; overflow: hidden; border: 1px solid rgb(39, 78, 19);\"><p style=\"margin: 3px 20px; text-align: center;\">Hvordan spise bærekraftig?</p></div></div>",
 	cssText:	"visibility: hidden; position: absolute; left: 40px; top: 21px; width: 760px; height: 22px; z-index: 10; cursor: pointer;",
 	cssClasses:	"",
 	htmlId:		"tobj175",
@@ -166,7 +175,8 @@ textbutton2523.rcdData.att_Desktop =
 		"name":	"BtnOK",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -195,9 +205,11 @@ image553.rcdData.att_Desktop =
 		"name":	"Bie",
 		"arChld":
 	[
-		{type:6,on:11,delay:0,name:'OnPageShowMoveTo',actItem:function(){ {   slideTo(image553, 265, 154, 9, 0);image553.bHasMoved = true;  }
+		{type:6,on:11,delay:0,name:'OnPageShowMoveTo',actItem:function(){ trivLogMsg( 'Action [OnPageShowMoveTo on Bie] fired!', 4 )
+    {   slideTo(image553, 265, 154, 9, 0);image553.bHasMoved = true;  }
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkToggleVis',actItem:function(){ shape554.toggleVisibility(); 
+		{type:6,on:2,delay:0,name:'OnMClkToggleVis',actItem:function(){ trivLogMsg( 'Action [OnMClkToggleVis on Bie] fired!', 4 )
+    shape554.toggleVisibility(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -322,23 +334,32 @@ textbutton400.rcdData.att_Desktop =
 		"name":	"Btn1",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ text444.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn1] fired!', 4 )
+    text444.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og443.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn1] fired!', 4 )
+    og443.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn1] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn1] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn1] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn1] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn1] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn1] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn1] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -355,23 +376,32 @@ textbutton430.rcdData.att_Desktop =
 		"name":	"Btn2",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ text446.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn2] fired!', 4 )
+    text446.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og443.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn2] fired!', 4 )
+    og443.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn2] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn2] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn2] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn2] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn2] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn2] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn2] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -388,23 +418,32 @@ textbutton398.rcdData.att_Desktop =
 		"name":	"Btn3",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ text447.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn3] fired!', 4 )
+    text447.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og443.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn3] fired!', 4 )
+    og443.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn3] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn3] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn3] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn3] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn3] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn3] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn3] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -421,23 +460,32 @@ textbutton425.rcdData.att_Desktop =
 		"name":	"Btn4",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ text448.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn4] fired!', 4 )
+    text448.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og443.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn4] fired!', 4 )
+    og443.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn4] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn4] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn4] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn4] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn4] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn4] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn4] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -454,23 +502,32 @@ textbutton405.rcdData.att_Desktop =
 		"name":	"Btn5",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ text451.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn5] fired!', 4 )
+    text451.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og443.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn5] fired!', 4 )
+    og443.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn5] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn5] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn5] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn5] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn5] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn5] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn5] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -487,23 +544,32 @@ textbutton410.rcdData.att_Desktop =
 		"name":	"Btn6",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ text452.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn6] fired!', 4 )
+    text452.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og443.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn6] fired!', 4 )
+    og443.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn6] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn6] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn6] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn6] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn6] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn6] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn6] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -520,23 +586,32 @@ textbutton420.rcdData.att_Desktop =
 		"name":	"Btn7",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og443.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    og443.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og2540.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn7] fired!', 4 )
+    og2540.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn7] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -553,23 +628,32 @@ textbutton415.rcdData.att_Desktop =
 		"name":	"Btn8",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ text454.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn8] fired!', 4 )
+    text454.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ og443.show(); 
+		{type:6,on:2,delay:0,name:'OnMClkShow',actItem:function(){ trivLogMsg( 'Action [OnMClkShow on Btn8] fired!', 4 )
+    og443.show(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn8] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn8] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn8] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn8] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn8] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn8] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og2540.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on Btn8] fired!', 4 )
+    og2540.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
@@ -619,23 +703,32 @@ textbutton441.rcdData.att_Desktop =
 		"name":	"BtnOK",
 		"arChld":
 	[
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ og443.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    og443.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text444.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text444.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text446.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text446.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text447.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text447.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text448.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text448.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text451.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text451.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text452.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text452.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text453.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text453.hide(); 
     if(typeof pF == 'function') pF(); }},
-		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ text454.hide(); 
+		{type:6,on:2,delay:0,name:'OnMClkHide',actItem:function(){ trivLogMsg( 'Action [OnMClkHide on BtnOK] fired!', 4 )
+    text454.hide(); 
     if(typeof pF == 'function') pF(); }}
 	]
 	},
