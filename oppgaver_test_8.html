@@ -21,6 +21,7 @@
 <script type='text/javascript' src='trivantis.js'></script>
 <script type='text/javascript' src='trivantis-cookie.js'></script>
 <script type='text/javascript' src='trivantis-timedate.js'></script>
+<script type='text/javascript' src='trivantis-titlemgr.js'></script>
 <script type='text/javascript' src='trivantis-wndobj.js'></script>
 <script type='text/javascript' src='trivantis-match.js'></script>
 <script type='text/javascript' src='trivantis-questions.js'></script>
@@ -123,7 +124,14 @@ viewOverrideMap["TabletPortrait"] = "Desktop";
 function init_page()
 {
 	if( is.min ){
-			trivLogMsg( '---- oppgaver_test_8.html ----' )
+			var titleMgr = getTitleMgrHandle()
+		if( titleMgr ) {
+		  if( !titleMgr.loadTest( '_tobj982', 'test982', 'oppgaver_test_8.html' )) {
+		    var gotoPage = titleMgr.cancelTest( 'test982' )
+		    if( gotoPage ) trivExitPage( gotoPage, false )
+		  }
+		}
+		trivLogMsg( '---- oppgaver_test_8.html ----' )
 		trivCenterPage = true;
 		if(!isMobile.any()) trivCenter();
 		window.trivBgndAudio = new jsBgSound();
@@ -214,10 +222,30 @@ function processTest(bCheck) {
 				return;
 			}
 		}
-		trivPageTracking.setRangeStatus(982, 2)
-		trivPageTracking.updateIndicators();
-		afterProcessTest( -1, 'Oppgaver_Score' );
-		trivExitPage( 'oppgaver_last_test_page.html', false );
+		var titleMgr = getTitleMgrHandle();
+		if( titleMgr ) {
+			if( VarQuestion_1.f > 0 ) VarQuestion_1.uDT(); else VarQuestion_1.getValue();
+			if( VarQuestion_2.f > 0 ) VarQuestion_2.uDT(); else VarQuestion_2.getValue();
+			if( VarQuestion_3.f > 0 ) VarQuestion_3.uDT(); else VarQuestion_3.getValue();
+			if( VarQuestion_4.f > 0 ) VarQuestion_4.uDT(); else VarQuestion_4.getValue();
+			if( VarQuestion5.f > 0 ) VarQuestion5.uDT(); else VarQuestion5.getValue();
+			if( VarQuestion_6.f > 0 ) VarQuestion_6.uDT(); else VarQuestion_6.getValue();
+			if( VarQuestion7.f > 0 ) VarQuestion7.uDT(); else VarQuestion7.getValue();
+			if( VarQuestion8.f > 0 ) VarQuestion8.uDT(); else VarQuestion8.getValue();
+			if( VarQuestion10.f > 0 ) VarQuestion10.uDT(); else VarQuestion10.getValue();
+			if( VarQuestion_9.f > 0 ) VarQuestion_9.uDT(); else VarQuestion_9.getValue();
+			if( VarQuestion_3620.f > 0 ) VarQuestion_3620.uDT(); else VarQuestion_3620.getValue();
+			if( VarQuestion_3628.f > 0 ) VarQuestion_3628.uDT(); else VarQuestion_3628.getValue();
+			if( VarQuestion_3646.f > 0 ) VarQuestion_3646.uDT(); else VarQuestion_3646.getValue();
+			Oppgaver_Score.set( titleMgr.GetTestScore( 'test982' ));
+			var score = parseInt( Oppgaver_Score.getValue() );
+			titleMgr.processTest( 'test982' );
+			if ( titleMgr.GetIfTestPassed( 'test982' ) ) {
+				trivPageTracking.setRangeStatus(982, 2)
+				trivPageTracking.updateIndicators();
+			}
+			finishTest( score );
+		}
 	}
 	finally { processTestStarted = false; }
 }
@@ -248,6 +276,10 @@ function ResetTest_test982() {
   VarQuestion_3620.set( '' );
   VarQuestion_3628.set( '' );
 qu3646.resetQuestion();
+  var titleMgr = getTitleMgrHandle();
+  if( titleMgr ) {
+    titleMgr.ResetTest( 'test982' );
+  }
 
   if ( trivPageTracking.getRangeStatus(982) != 'notstarted' ) {      trivPageTracking.setRangeStatus(982,0);
       trivPageTracking.updateIndicators();

@@ -12,6 +12,7 @@
 
 <link rel="stylesheet" href="trivantisPage.css" type="text/css" />
 <link rel="stylesheet" href="trivantis-common.css" type="text/css" />
+<link rel="stylesheet" href="trivantis-dialog.css" type="text/css" />
 <link rel="stylesheet" href="trivantis-player.css" type="text/css" />
 <script type='text/javascript' src='es6-promise-2.0.0.min.js'></script>
 <script type='text/javascript' src='jquery-1.12.4.min.js'></script>
@@ -21,7 +22,10 @@
 <script type='text/javascript' src='trivantis-cookie.js'></script>
 <script type='text/javascript' src='trivantis-timedate.js'></script>
 <script type='text/javascript' src='trivantis-trans.js'></script>
+<script type='text/javascript' src='trivantis-titlemgr.js'></script>
 <script type='text/javascript' src='trivantis-wndobj.js'></script>
+<script type='text/javascript' src='trivantis-dialog.js'></script>
+<script type='text/javascript' src='trivantis-strings.js'></script>
 <script type='text/javascript' src='hammer.js'></script>
 <script>
 
@@ -92,6 +96,8 @@ arrOfVars.push(VarQuestion_3628)
 var VarQuestion_3646 = new Variable( 'VarQuestion_3646', '', 0, 0, '', 365, 'barekraftigmatforbruk.html', f );
 arrOfVars.push(VarQuestion_3646)
 var VarTriQA_3646 = new Variable( 'VarTriQA_3646', '0', 0, 0, '', 365, 'barekraftigmatforbruk.html', t );
+var AICC_Score = new Variable( 'AICC_Score', '0', 0, 0, null, null, 'barekraftigmatforbruk.html', f );
+arrOfVars.push(AICC_Score)
 var VarTriCCState = new Variable( 'VarTriCCState', 'en', 0, 0, null, null, 'barekraftigmatforbruk.html'  );
 var VarTriMuteAllFLV = new Variable( 'VarTriMuteAllFLV', '', 0, 0, null, null, 'barekraftigmatforbruk.html'  );
 var bRcdTitle = true;
@@ -120,7 +126,14 @@ viewOverrideMap["TabletPortrait"] = "Desktop";
 function init_page()
 {
 	if( is.min ){
-			trivLogMsg( '---- oppgaver_last_test_page.html ----' )
+			var titleMgr = getTitleMgrHandle()
+		if( titleMgr ) {
+		  if( !titleMgr.loadTest( '_tobj982', 'test982', 'oppgaver_last_test_page.html' )) {
+		    var gotoPage = titleMgr.cancelTest( 'test982' )
+		    if( gotoPage ) trivExitPage( gotoPage, false )
+		  }
+		}
+		trivLogMsg( '---- oppgaver_last_test_page.html ----' )
 		trivCenterPage = true;
 		if(!isMobile.any()) trivCenter();
 		window.trivBgndAudio = new jsBgSound();
@@ -132,6 +145,7 @@ function init_page()
 		trivPage.actionMute();
 	}
 }
+bDoProcessTest = false;
 
 function finish() {
     if (window.finishCalled) return;
@@ -143,12 +157,72 @@ window.onbeforeunload = function(){
 	if (!theApp.is.ie10orLess) finish();
 };
 window.onunload = finish;
+trivProcessTest=1;
 function trivPrevPage() {
     trivExitPage( 'oppgaver_test_8.html', true )
 }
 
 function trivNextPage() {
     trivExitPage( '', true )
+}
+
+function finishTest( score ) {
+  var titleMgr = getTitleMgrHandle();
+  if( titleMgr ) {
+    var gotoPage = titleMgr.getProcessTestResult( 'test982' );
+    if( gotoPage || gotoPage === '') {
+      if( score ) afterProcessTest( score, 'Oppgaver_Score' );
+      setTimeout(function(){trivExitPage( gotoPage, false );},1000);
+    }
+    else if( !gotoPage && gotoPage != '' ) {
+      setTimeout( "finishTest()", 1000 );
+    }
+  }
+}
+
+var processTestStarted = false;
+
+function processTest(bCheck) {
+	if ( processTestStarted ) return;
+	try {
+		processTestStarted = true;
+		if( bCheck )
+		{
+			if( trivCheckQuestions( null, true ) == 'return' )
+				return;
+			if( trivActFBCnt != 0 )
+			{
+				bDoProcessTest = true;
+				setTimeout( "checkLeavePage()", 100 )
+				return;
+			}
+		}
+		var titleMgr = getTitleMgrHandle();
+		if( titleMgr ) {
+			if( VarQuestion_1.f > 0 ) VarQuestion_1.uDT(); else VarQuestion_1.getValue();
+			if( VarQuestion_2.f > 0 ) VarQuestion_2.uDT(); else VarQuestion_2.getValue();
+			if( VarQuestion_3.f > 0 ) VarQuestion_3.uDT(); else VarQuestion_3.getValue();
+			if( VarQuestion_4.f > 0 ) VarQuestion_4.uDT(); else VarQuestion_4.getValue();
+			if( VarQuestion5.f > 0 ) VarQuestion5.uDT(); else VarQuestion5.getValue();
+			if( VarQuestion_6.f > 0 ) VarQuestion_6.uDT(); else VarQuestion_6.getValue();
+			if( VarQuestion7.f > 0 ) VarQuestion7.uDT(); else VarQuestion7.getValue();
+			if( VarQuestion8.f > 0 ) VarQuestion8.uDT(); else VarQuestion8.getValue();
+			if( VarQuestion10.f > 0 ) VarQuestion10.uDT(); else VarQuestion10.getValue();
+			if( VarQuestion_9.f > 0 ) VarQuestion_9.uDT(); else VarQuestion_9.getValue();
+			if( VarQuestion_3620.f > 0 ) VarQuestion_3620.uDT(); else VarQuestion_3620.getValue();
+			if( VarQuestion_3628.f > 0 ) VarQuestion_3628.uDT(); else VarQuestion_3628.getValue();
+			if( VarQuestion_3646.f > 0 ) VarQuestion_3646.uDT(); else VarQuestion_3646.getValue();
+			Oppgaver_Score.set( titleMgr.GetTestScore( 'test982' ));
+			var score = parseInt( Oppgaver_Score.getValue() );
+			titleMgr.processTest( 'test982' );
+			if ( titleMgr.GetIfTestPassed( 'test982' ) ) {
+				trivPageTracking.setRangeStatus(982, 2)
+				trivPageTracking.updateIndicators();
+			}
+			finishTest( score );
+		}
+	}
+	finally { processTestStarted = false; }
 }
 
 function ResetTest_test982() {
@@ -178,6 +252,10 @@ function ResetTest_test982() {
   VarQuestion_3628.set( '' );
   VarTriQA_3646.reset();
   VarQuestion_3646.set( '' );
+  var titleMgr = getTitleMgrHandle();
+  if( titleMgr ) {
+    titleMgr.ResetTest( 'test982' );
+  }
 
   if ( trivPageTracking.getRangeStatus(982) != 'notstarted' ) {      trivPageTracking.setRangeStatus(982,0);
       trivPageTracking.updateIndicators();
@@ -221,10 +299,8 @@ if( is.min ) {
 	var rcdObj = { rcdData: {} };
 
 	var textbutton36 = new jsWndTextButton(); //BtnHjem
+	var textbutton3736 = new jsWndTextButton(); //Button 3
 	var shape3587 = new jsWndShape(); //Rectangle
-	var text3719 = new jsWndText(); //Text Block 4
-	var text3718 = new jsWndText(); //Text Block 5
-	var text3717 = new jsWndText(); //Text Block 4
 	var text3707 = new jsWndText(); //Text Block 3
 	var text3600 = new jsWndText(); //Text Block 5
 	var textbutton3592 = new jsWndTextButton(); //BtnIgjen
@@ -235,8 +311,8 @@ if( is.min ) {
 	var image3577 = new jsWndImage(); //Ballong2
 	var alertCtr = 0;
 	var trivPageId=990; //trivPage.id
-	var arWnds = [shape3587,text3719,text3718,text3717,text3707,text3600,image3585,image3583,text3580,image3577,textbutton36,textbutton3592,textbutton3588];
-	var arAttachObj = [textbutton36,shape3587,text3719,text3718,text3717,text3707,text3600,textbutton3592,textbutton3588,image3585,image3583,text3580,image3577];
+	var arWnds = [shape3587,text3707,text3600,image3585,image3583,text3580,image3577,textbutton36,textbutton3736,textbutton3592,textbutton3588];
+	var arAttachObj = [textbutton36,textbutton3736,shape3587,text3707,text3600,textbutton3592,textbutton3588,image3585,image3583,text3580,image3577];
 	var arPooledMedia = [];
 }
 
